@@ -107,10 +107,6 @@ public class EmployeeController {
         return ResponseEntity.ok("Emp data get delete");
     }
 
-    @DeleteMapping("/deletealldata")
-    public ResponseEntity<String> deleteAllData(){
-        employeeServiceImpl.deleteAllData();
-        return ResponseEntity.ok("All data get delete");
-    }
+   
 
 }
